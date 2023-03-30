@@ -2,15 +2,17 @@ package = langvist
 version	= 0.1
 date	= $(shell date "+%b%y")
 
-bin	= $(package)
-ldflags	= -lncurses
-scrdir	= -I"src/"
+exe	= $(package)
 
-all: src/main.cpp
-	g++ src/main.cpp -lncurses -o bin/langvist
+all: bindir src/main.cpp
+	$(CXX) src/main.cpp -lncurses -o bin/$(exe)
 
-run: all
-	./bin/$(bin)
+bindir: 
+	mkdir -p bin
+
+run: bin/$(exe)
+	./bin/$(exe)
 
 clean:
-	rm -f bin/$()
+	rm -f bin/$(exe)
+	rmdir bin

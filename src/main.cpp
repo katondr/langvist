@@ -1,26 +1,18 @@
-#include <ncurses.h>
+#include <iostream>
+#include <string>
+
 using namespace std;
 
-int main(int argc, char ** argv)
+void displaymenu()
 {
-	// init screen and sets up screen
-	initscr();
+	cout<<"===========================\n";
+	cout<<"\tMENU\n";
+	cout<<"===========================\n";
+	cout<<" 1. Also sprach Zarathustha\n";
+	cout<<" 2. Max Havelaar\n";
+}
 
-	WINDOW *win = newwin(15, 17, 2, 10);
-	refresh();
-
-	box(win, 0, 0);
-
-	// print to screen
-	mvwprintw(win, 0, 1, "Greeter");
-	mvwprintw(win, 1, 1, "Hello");
-
-	wrefresh(win);
-
-	// pause the screen output
-	getch();
-
-	// deallocates memory and ends ncurses
-	endwin();
-	return 0;
+int main()
+{
+	displaymenu();
 }
