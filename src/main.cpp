@@ -1,25 +1,23 @@
 #include <iostream>
 #include <string>
+//#include "booklist.hpp"
+//{:w
+#include "listreader.hpp"
+//#include "menu.hpp"
 //#include "retriever.hpp"
 
-using namespace std;
-
-void displaymenu()
-{
-	cout<<"===========================\n";
-	cout<<" 1. Also sprach Zarathustha\n";
-	cout<<" 2. Max Havelaar\n";
-}
+//using namespace std;
 
 int main()
 {
 	//read_list();
 	//retriever();
-	displaymenu();
+	//listreader();
+	//displaymenu();
 	
 	int choice;
-	cin>>choice;
+	std::cin>>choice;
 	//read_book();
-	cout<<choice;
+	std::cout<<choice;
 	return 0;
 }
