@@ -1,18 +1,19 @@
-package = langvist
-version	= 0.1
-date	= $(shell date "+%b%y")
+PACKAGE = langvist
+VERSION	= 0.1
+DATE	= $(shell date "+%b%y")
+#FLAGS	= -lncurses
 
-exe	= $(package)
+EXE	= $(PACKAGE)
 
 all: bindir src/main.cpp
-	$(CXX) src/main.cpp -lncurses -o bin/$(exe)
+	$(CXX) src/main.cpp $(FLAGS) -o bin/$(EXE)
 
 bindir: 
 	mkdir -p bin
 
-run: bin/$(exe)
-	./bin/$(exe)
+run: bin/$(EXE)
+	./bin/$(EXE)
 
 clean:
-	rm -f bin/$(exe)
+	rm -f bin/$(EXE)
 	rmdir bin

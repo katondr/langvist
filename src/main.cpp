@@ -8,16 +8,23 @@
 
 //using namespace std;
 
-int main()
+int main(int argc, char *argv[])
 {
-	//read_list();
-	//retriever();
-	//listreader();
-	//displaymenu();
-	
-	int choice;
-	std::cin>>choice;
-	//read_book();
-	std::cout<<choice;
+	try
+	{
+		//read_list();
+		//retriever();
+		listreader();
+		displaymenu();
+		
+		int choice;
+		std::cin>>choice;
+		//read_book();
+		std::cout<<choice;
+	}
+	catch (...)
+	{
+		//some code
+	}
 	return 0;
 }

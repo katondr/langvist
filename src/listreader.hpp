@@ -13,7 +13,8 @@ using std::endl; using std::string;
 using std::ifstream; using std::ostringstream;
 using std::istringstream;
 
-string readFileIntoString(const string& path) {
+string readFileIntoString(const string& path) 
+{
 	auto ss = ostringstream{};
 	ifstream input_file(path);
 	if (!input_file.is_open()){
@@ -25,7 +26,7 @@ string readFileIntoString(const string& path) {
 	return ss.str();
 }
 
-extern std::map<int, std::vector<string>> books;
+std::map<int, std::vector<string>> books;
 
 int listreader()
 {
@@ -54,6 +55,8 @@ int listreader()
 		counter += 1;
 	}
 
+	//std::cout << file_contents << endl;
+
 	return 0;
 }
 
@@ -61,7 +64,9 @@ void displaymenu()
 {
 	//listreader();
 	std::cout << "\n";
-	//std::cout << books.size();
+	//std::vector<string> book = books[0];
+	//std::cout << book[1] << endl;
+	std::cout << books.empty() << endl;
 	std::cout << "2. Max Havelaar\n";
 }
 #endif
