@@ -20,6 +20,27 @@ Max Havelaar
 [nl][https://www.gutenberg.org/cache/epub/11024/pg11024.txt]
 [en][https://www.gutenberg.org/cache/epub/70128/pg70128.txt]
 
+### In Japanese
+by Leonid Andreyev, translated by Shimei Futabatei
+血笑記
+[jp][https://www.gutenberg.org/files/34013/34013-0.txt]
+[en][https://www.gutenberg.org/cache/epub/62460/pg62460.txt]
+
+by Earl Derr Biggers, translated by Kiyotoshi Hayashi
+The Agony Column
+[en][https://www.gutenberg.org/files/1814/1814-0.txt]
+[jp][https://www.gutenberg.org/files/39287/39287-0.txt]
+
+by Raymond F Jones, translated by Kiyotoshi Hayashi
+The Memories of Mars
+[en][https://www.gutenberg.org/cache/epub/26093/pg26093.txt]
+[jp][https://www.gutenberg.org/files/36358/36358-0.txt]
+
+by John Meade Falkner, translated by Kiyotoshi Hayashi
+The Nebuly Coat
+[en][https://www.gutenberg.org/cache/epub/22943/pg22943.txt]
+[jp][https://www.gutenberg.org/files/35018/35018-0.txt]
+
 ## Dependencies
 
 Currently, Langvist only able to run in linux since it depend on curl.
