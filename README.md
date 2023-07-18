@@ -21,6 +21,10 @@ Max Havelaar
 [en][https://www.gutenberg.org/cache/epub/70128/pg70128.txt]
 
 ### In Japanese
+by Hakuchō Masamune
+何處へ
+[jp][https://www.gutenberg.org/files/32941/32941-0.txt]
+
 by Leonid Andreyev, translated by Shimei Futabatei
 血笑記
 [jp][https://www.gutenberg.org/files/34013/34013-0.txt]
@@ -44,6 +48,9 @@ The Nebuly Coat
 ## Dependencies
 
 Currently, Langvist only able to run in linux since it depend on curl.
+
+On Debian, the following package need to be installed,
+    libcurlpp-dev
 
 ## Usage
 
