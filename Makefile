@@ -18,5 +18,5 @@ clean:
 	rm -f bin/$(EXE)
 	rmdir bin
 
-retriever:
+retriever: src/examples/retriever.cpp
 	$(CXX) src/examples/retriever.cpp -o bin/retriever

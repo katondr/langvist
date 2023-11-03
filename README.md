@@ -45,6 +45,18 @@ The Nebuly Coat
 [en][https://www.gutenberg.org/cache/epub/22943/pg22943.txt]
 [jp][https://www.gutenberg.org/files/35018/35018-0.txt]
 
+### In Russian
+by Sergei Aleksandrovich Rachinskii
+1001 задача для умственного счета
+[RU][https://www.gutenberg.org/cache/epub/16527/pg16527.txt]
+
+Женское международное движение: Сборник статей
+[RU][https://www.gutenberg.org/cache/epub/37196/pg37196.txt]
+
+by Gavriil Romanovich Derzhavin
+Духовные оды
+[RU][https://www.gutenberg.org/cache/epub/14741/pg14741.txt]
+
 ## Dependencies
 
 Currently, Langvist only able to run in linux since it depend on curl.
