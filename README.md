@@ -1,7 +1,7 @@
 # Langvist
 
 ## Literature
-The first book available would be:
+Books in different language can be accessed through links below,
 
 ### In German
 by Friedrich Nietzsche
